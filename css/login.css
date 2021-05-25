@@ -1,0 +1,48 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Sunflower", sans-serif;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.welcome-header__text {
+  width: 60%;
+  font-size: 15px;
+  opacity: 0.4;
+  font-weight: 500;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.login-form__email,
+.login-form__password {
+  border-style: none;
+  height: 50px;
+  font-size: 22px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding: 10px 0px;
+  font-family: "Sunflower", sans-serif;
+}
+.login-form__email:focus,
+.login-form__password:focus {
+  border-bottom: 1px solid #bcb1dd;
+}
+.login-form__btn {
+  margin-top: 40px;
+  border-style: none;
+  height: 50px;
+  font-size: 25px;
+  background-color: #bcb1dd;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: "Sunflower", sans-serif;
+}

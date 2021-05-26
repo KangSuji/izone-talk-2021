@@ -6,8 +6,9 @@
   width: 100%;
   padding: 5px 5px;
   box-sizing: border-box;
-  font-family: "Sunflower", sans-serif;
+  font-family: var(--font-flower);
   top: 0;
+  /* background-color: white; */
 }
 .status-bar__column {
   width: 33%;

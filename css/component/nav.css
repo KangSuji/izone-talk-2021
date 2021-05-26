@@ -1,0 +1,12 @@
+.nav {
+  width: 100%;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  background-color: var(--eunbi);
+  color: white;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

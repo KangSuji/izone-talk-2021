@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Sunflower", sans-serif;
+  font-family: var(--font-flower);
 }
 .welcome-header__title {
   margin-bottom: 40px;
@@ -29,20 +29,20 @@
   font-size: 22px;
   border-bottom: 1px solid rgb(182, 182, 182);
   padding: 10px 0px;
-  font-family: "Sunflower", sans-serif;
+  font-family: var(--font-flower);
 }
 .login-form__email:focus,
 .login-form__password:focus {
-  border-bottom: 1px solid #bcb1dd;
+  border-bottom: 1px solid var(--eunbi);
 }
 .login-form__btn {
   margin-top: 40px;
   border-style: none;
   height: 50px;
   font-size: 25px;
-  background-color: #bcb1dd;
+  background-color: var(--eunbi);
   border-radius: 10px;
   cursor: pointer;
   color: white;
-  font-family: "Sunflower", sans-serif;
+  font-family: var(--font-flower);
 }

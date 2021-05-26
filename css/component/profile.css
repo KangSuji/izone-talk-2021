@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  margin: 15px 25px;
+}
+.profile__img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 35px;
+  margin-right: 20px;
+}
+.profile__name span {
+  font-size: 25px;
+  font-weight: 600;
+}

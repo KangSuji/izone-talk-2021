@@ -1,0 +1,28 @@
+.setting-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 25px;
+  font-family: var(--font-flower);
+}
+.setting-header__title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.settings__setting {
+  padding: 20px 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-flower);
+}
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}

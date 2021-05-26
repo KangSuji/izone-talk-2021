@@ -31,6 +31,8 @@
 .chat-screen,
 .chat-header {
   background-color: var(--eunbi);
+  font-family: var(--font-flower);
+  font-weight: 200;
 }
 .chat-screen {
   display: flex;

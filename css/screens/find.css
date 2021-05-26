@@ -119,3 +119,6 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+.open-post:last-child {
+  margin-bottom: 90px;
+}

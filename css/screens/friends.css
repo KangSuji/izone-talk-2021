@@ -41,3 +41,6 @@
   right: 0px;
   margin-right: 25px;
 }
+.friends-screen .profile:last-child {
+  margin-bottom: 90px;
+}

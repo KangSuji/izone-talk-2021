@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: var(--font-flower);
   top: 0;
-  /* background-color: white; */
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .status-bar__column {
   width: 33%;

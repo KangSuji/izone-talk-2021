@@ -1,7 +1,6 @@
 .profile {
   display: flex;
   align-items: center;
-
   margin: 15px 25px;
 }
 .profile__img img {
@@ -13,4 +12,5 @@
 .profile__name span {
   font-size: 25px;
   font-weight: 600;
+  font-family: var(--font-flower);
 }

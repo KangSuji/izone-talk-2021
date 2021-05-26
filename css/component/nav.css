@@ -2,6 +2,8 @@
   width: 100%;
   padding: 20px 60px;
   box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
   background-color: var(--eunbi);
   color: white;
 }

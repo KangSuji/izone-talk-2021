@@ -1,0 +1,38 @@
+.chats-screen {
+  margin-top: 40px;
+}
+.chats {
+  display: flex;
+  flex-direction: column;
+}
+.profile__name .chats__text {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.chats-column {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  position: absolute;
+  right: 25px;
+}
+.chats-column__time {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--font-flower);
+  opacity: 0.6;
+}
+.notification-bedge {
+  background-color: var(--eunbi);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  font-family: var(--font-flower);
+  font-weight: 600;
+}

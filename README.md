@@ -9,9 +9,9 @@
 
 
 # 소개
-HTML과 CSS만 이용해 카카오톡 클론 코딩.
-실제 채팅 느낌이 나게 animation적용.
-media query를 적용해 화면 크기 제한.
+- HTML과 CSS만 이용해 카카오톡 클론 코딩.
+- 실제 채팅 느낌이 나게 animation적용.
+- media query를 적용해 화면 크기 제한.
 
 
 

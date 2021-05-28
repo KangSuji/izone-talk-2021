@@ -1,5 +1,5 @@
 # izone-talk-2021
--- 작업기간 : 2일
+--작업기간 : 2일
 -- 작업 인원 : 1명
 -- 작업툴 : VISUAL STUDIO CODE
 -- 언어 : HTML , CSS

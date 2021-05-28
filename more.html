@@ -4,7 +4,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IZONE Talk - Friends</title>
+    <title>IZONE Talk - More</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,7 +22,7 @@
     </div>
 
     <header class="screen-header">
-      <div class="screen-header__title"><span>Friends</span></div>
+      <div class="screen-header__title"><span>More</span></div>
       <div class="screen-header__icons">
         <span>
           <i class="fas fa-search fa-lg"></i>
@@ -35,17 +35,75 @@
         </span>
       </div>
     </header>
-    <div class="profile">
+    <div class="profile more">
       <div class="profile__img">
         <img
           src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/764/961/81764961_1607325230867_1_600x600.JPG"
         />
       </div>
-      <div class="profile__name">
-        <span>Izone</span>
+      <div class="more__name">
+        <span class="more__name-name">IZONE</span>
+        <span class="more__phone">+82 010-2018-1029</span>
+      </div>
+      <div class="more__column">
+        <i class="far fa-comment-alt fa-2x"></i>
       </div>
     </div>
-    <main class="friends-screen"></main>
+    <main class="more-screen">
+      <div class="more-icons">
+        <div class="more-icon-row">
+          <i class="far fa-calendar-check fa-2x"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="more-icon-row">
+          <i class="far fa-grimace fa-2x"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="more-icon-row">
+          <i class="fas fa-paint-roller fa-2x"></i>
+          <span>Themes</span>
+        </div>
+        <div class="more-icon-row">
+          <i class="far fa-comments fa-2x"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-icons">
+        <div class="more-icon-row">
+          <i class="fas fa-box-open fa-2x"></i>
+          <span>Talk Drive</span>
+        </div>
+      </div>
+      <div class="suggestions">
+        <div class="suggestions__title">Suggestions</div>
+        <div class="suggestions-row">
+          <div class="suggestions-row__icons">
+            <span class="suggestions-row__icons-icon"
+              ><i class="fas fa-quote-right fa-2x"></i
+            ></span>
+            <span>Izone Story</span>
+          </div>
+          <div class="suggestions-row__icons">
+            <span class="suggestions-row__icons-icon"
+              ><i class="far fa-envelope fa-2x"></i
+            ></span>
+            <span>Private Mail</span>
+          </div>
+          <div class="suggestions-row__icons">
+            <span class="suggestions-row__icons-icon"
+              ><i class="fas fa-quote-right fa-2x"></i
+            ></span>
+            <span>Izone Story</span>
+          </div>
+          <div class="suggestions-row__icons">
+            <span class="suggestions-row__icons-icon"
+              ><i class="far fa-envelope fa-2x"></i
+            ></span>
+            <span>Private Mail</span>
+          </div>
+        </div>
+      </div>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -56,6 +114,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <i class="far fa-comment fa-2x"></i>
+            <div class="chat-notification">3</div>
           </a>
         </li>
         <li class="nav__btn">
@@ -71,6 +130,10 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span>Your Screen Is Too Big 😥</span>
+      <span>모바일로 보거나 화면크기를 줄여주세요!</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

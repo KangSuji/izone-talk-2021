@@ -7,6 +7,7 @@
 @import "component/status-bar.css";
 @import "component/screen-header.css";
 @import "component/nav.css";
+@import "component/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
@@ -15,3 +16,4 @@
 @import "screens/chat.css";
 @import "screens/find.css";
 @import "screens/setting.css";
+@import "screens/more.css";

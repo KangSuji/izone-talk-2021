@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: var(--font-flower);
   top: 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #E5E5E5;
 }
 .status-bar__column {
   width: 33%;
@@ -26,4 +26,13 @@
 }
 .status-bar__column:last-child i {
   margin-right: 10px;
+}
+.status-bar.eunbi-screen {
+  background-color: #a098b9;
+}
+.status-bar.yena-screen {
+  background-color: #e6e188;
+}
+.status-bar.yuri-screen {
+  background-color: #df9c4b;
 }
